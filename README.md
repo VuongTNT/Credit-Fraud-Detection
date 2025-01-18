@@ -72,6 +72,7 @@ that Undersampling may not provide reliable evaluation results.*
 # Documentation
 
 Detailed about this project can be found in our report.
+If you want to run this on Google Colab, access the source code via this link: [Google Drive](https://drive.google.com/file/d/1mfH6CoZBWxSbvjLXWtGxheA6CVklN7uE/view?usp=sharing).
 
 # Contributors
 
