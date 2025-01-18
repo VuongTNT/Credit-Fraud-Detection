@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Credit Card Fraud Detection</title>
+</head>
+<body>
+  <h1>Credit Card Fraud Detection</h1>
+  <form action="/predict" method="post">
+    <label for="data">Enter comma-separated data (Time, V1, V2, ..., Amount):</label>
+    <textarea id="data" name="data" rows="5" cols="100" required></textarea><br><br>
+    <label for="model">Choose a model:</label>
+    <select id="model" name="model" required>
+      <option value="Linear Regression">Linear Regression</option>
+      <option value="Decision Tree">Decision Tree</option>
+      <option value="Random Forest">Random Forest</option>
+      <option value="SVM">SVM</option>
+      <option value="Artificial Neural Network">Artificial Neural Network</option>
+    </select><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
